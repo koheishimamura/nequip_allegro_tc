@@ -1,3 +1,5 @@
+## Our implementation
+
 This repository implements an extension to <a href="https://github.com/mir-group/allegro">Allegro</a> that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula. It was created based on <a href="https://github.com/mir-group/nequip">the original Allegro</a> and <a href="https://github.com/Hongyu-yu/nequip">an extended version by H. Yu et al</a>.
 
 <!--
