@@ -80,9 +80,11 @@ pytest tests/
 If a GPU is present, the unit tests will use it.
 -->
 
+<!--
 ## Tutorial 
 
 The best way to learn how to use NequIP is through the [Colab Tutorial](https://bit.ly/mrs-nequip). This will run entirely on Google's cloud virtual machine; you do not need to install or run anything locally. 
+-->
 
 ## Usage
 
@@ -128,6 +130,7 @@ nequip-deploy build --train-dir path/to/training/session/ where/to/put/deployed_
 ```
 For more details on this command, please run `nequip-deploy --help`.
 
+<!--
 ### Using models in Python
 
 An ASE calculator is also provided in `nequip.dynamics`.
@@ -154,12 +157,14 @@ pair_coeff	* * deployed.pth <NequIP type for LAMMPS type 1> <NequIP type for LAM
 For installation instructions, please see the [`pair_nequip` repository](https://github.com/mir-group/pair_nequip).
 
 ## Plugins / extending `nequip`
+-->
 
 `nequip` is a modular framework and extension packages can provide new model components, architectures, etc. The main extension package(s) currently available are:
  - [Allegro](https://github.com/mir-group/allegro): implements the highly parallelizable Allegro model architecture.
 
 Details on writing and using plugins can be found in the [Allegro tutorial](https://colab.research.google.com/drive/1yq2UwnET4loJYg_Fptt9kpklVaZvoHnq).
 
+<!--
 ## References & citing
 
 The theory behind NequIP is described in our preprint (1). NequIP's backend builds on e3nn, a general framework for building E(3)-equivariant neural networks (2). If you use this repository in your work, please consider citing NequIP (1) and e3nn (3):
@@ -189,3 +194,4 @@ If you find a bug or have a proposal for a feature, please post it in the [Issue
 If you have a question, topic, or issue that isn't obviously one of those, try our [GitHub Discussions](https://github.com/mir-group/nequip/discussions).
 
 If you want to contribute to the code, please read [`CONTRIBUTING.md`](CONTRIBUTING.md).
+-->
