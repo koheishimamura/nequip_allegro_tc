@@ -87,9 +87,9 @@ The best way to learn how to use NequIP is through the [Colab Tutorial](https://
 -->
 
 ## Usage
-
+<!--
 **! PLEASE NOTE:** the first few calls to a NequIP model can be painfully slow. This is expected behaviour as the [profile-guided optimization of TorchScript models](https://program-transformations.github.io/slides/pytorch_neurips.pdf) takes a number of calls to warm up before optimizing the model. (The `nequip-benchmark` script accounts for this.)
-
+-->
 ### Basic network training
 
 To train a network, you run `nequip-train` with a YAML config file that describes your data set, model hyperparameters, and training options. 
