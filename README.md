@@ -1,4 +1,4 @@
-#### This repository implements an extension to Allegro that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula. It was created based on the original Allegro and extended by H. Yu et al.
+#### This repository implements an extension to <a href="url">Allegro</a> that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula. It was created based on the original Allegro and extended by H. Yu et al.
 
 <!--
 When you use Allegro-Legato in your paper, please use the following BibTeX to cite.
