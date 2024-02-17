@@ -12,14 +12,19 @@ NequIP is an open-source code for building E(3)-equivariant interatomic potentia
 **PLEASE NOTE:** the NequIP code is under active development and is still in beta versions 0.x.x. In general changes to the patch version (the third number) indicate backward compatible beta releases, but please be aware that file formats and APIs may change. Bug reports are also welcomed in the GitHub issues!
 -->
 
-## Installation of NequIP
+## Installation
 
-NequIP requires:
+NequIP and Allegro requires:
 
 * Python >= 3.7
 * PyTorch == 1.10.* or 1.13.*. PyTorch can be installed following the [instructions from their documentation](https://pytorch.org/get-started/locally/). Note that neither `torchvision` nor `torchaudio`, included in the default install command, are needed for NequIP.
 
-**You must install PyTorch before installing NequIP, however it is not marked as a dependency of `nequip` to prevent `pip` from trying to overwrite your PyTorch installation.**
+**You must install PyTorch before installing.
+<!--however it is not marked as a dependency of `nequip` to prevent `pip` from trying to overwrite your PyTorch installation.**-->
+Example:
+  ```
+  pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+  ```
 
 To install:
 
@@ -36,17 +41,23 @@ To install:
 
 * Install NequIP
 
-  NequIP can be installed from PyPI:
   ```
-  pip install nequip
+  cd nequip && pip install .
   ```
+
+* Install Allegro
+  ```
+  cd allegro &&  pip install .
+  ```
+  
+<!--
   or directly from source:
   ```
   git clone https://github.com/mir-group/nequip.git
   cd nequip
   pip install . 
   ```
-<!--
+
 ### Installation Issues
 
 The easiest way to check if your installation is working is to train a **toy** model:
