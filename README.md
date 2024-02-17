@@ -18,6 +18,8 @@ This repository implements an extension to <a href="https://github.com/mir-group
 Our Allegro outputs two types of atomic virial tensors ${\rm W}^{\rm sym}_i$ and ${\rm W}^{\rm asym}_i$ that we used in our paper, and we discussed in the paper that the total sum of the two atomic virial tensors over the number of atoms in the system is the same, but the latter is the one that gives the correct thermal conductivity.
 By reading this atomic virial tensor ${\rm W}^{\rm asym}_i$ from the Allegro in the molecular dynamics code and constructing the heat flux, one can perform the thermal conductivity calculation based on the Green-Kubo formula.
 
+The variable names of the two atomic virial tensors ${\rm W}^{\rm sym}_i$ and ${\rm W}^{\rm asym}_i$ are *atomic_virial* and *atomic_virial2*, respectively.
+
 <!--
 When you use Allegro-Legato in your paper, please use the following BibTeX to cite.
 
