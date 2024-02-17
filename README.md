@@ -29,7 +29,7 @@ Example:
   ```
 
 To install:
-
+<!--
 * [Weights&Biases](https://wandb.ai) (or TensorBoard) is used to keep track of experiments. This is not a strict requirement — you can use our package without it — but it may make your life easier. If you want to use it, create an account [here](https://wandb.ai) and install the Python package:
 
   ```
@@ -40,7 +40,7 @@ To install:
     * On your local computer, build an ssh tunnel to your compute node by `ssh -L 6006:127.0.0.1:6006 username@ip`
     * On the compute node, go to the `{root}` folder specify in the config file, and run `tensorboard --logdir tb_summary`
     * Use your local computer browser to log on `http://localhost:6006`
-
+-->
 * Install NequIP
 
   ```
