@@ -1,5 +1,10 @@
 # NequIP
 
+This repository implements an extension to Allegro that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula.
+
+<!--
+When you use Allegro-Legato in your paper, please use the following BibTeX to cite.
+
 NequIP is an open-source code for building E(3)-equivariant interatomic potentials.
 
 [![Documentation Status](https://readthedocs.org/projects/nequip/badge/?version=latest)](https://nequip.readthedocs.io/en/latest/?badge=latest)
@@ -7,6 +12,7 @@ NequIP is an open-source code for building E(3)-equivariant interatomic potentia
 ![nequip](./logo.png)
 
 **PLEASE NOTE:** the NequIP code is under active development and is still in beta versions 0.x.x. In general changes to the patch version (the third number) indicate backward compatible beta releases, but please be aware that file formats and APIs may change. Bug reports are also welcomed in the GitHub issues!
+-->
 
 ## Installation
 
