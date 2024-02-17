@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mir-allegro
+Version: 0.2.0
+Summary: Allegro is an open-source code for building highly scalable and accurate equivariant deep learning interatomic potentials.
+Home-page: UNKNOWN
+Author: Albert Musaelian, Simon Batzner
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
