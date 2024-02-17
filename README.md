@@ -166,7 +166,7 @@ For installation instructions, please see the [`pair_nequip` repository](https:/
 
 Details on writing and using plugins can be found in the [Allegro tutorial](https://colab.research.google.com/drive/1yq2UwnET4loJYg_Fptt9kpklVaZvoHnq).
 
-<!--
+
 ## References & citing
 
 The theory behind NequIP is described in our preprint (1). NequIP's backend builds on e3nn, a general framework for building E(3)-equivariant neural networks (2). If you use this repository in your work, please consider citing NequIP (1) and e3nn (3):
@@ -175,6 +175,7 @@ The theory behind NequIP is described in our preprint (1). NequIP's backend buil
  2. https://e3nn.org
  3. https://doi.org/10.5281/zenodo.3724963
 
+<!--
 ## Authors
 
 NequIP is being developed by:
