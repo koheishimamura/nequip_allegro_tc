@@ -2,6 +2,9 @@
 
 This repository implements an extension to <a href="https://github.com/mir-group/allegro">Allegro</a> that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula. It was created based on <a href="https://github.com/mir-group/nequip">the original Allegro</a> and <a href="https://github.com/Hongyu-yu/nequip">an extended version by H. Yu et al</a>.
 
+Our Allegro outputs two types of atomic virial tensors that we used in our paper, and we discussed in the paper that the total sum of the two atomic virial tensors is the same, but the latter is the one that gives the correct thermal conductivity.
+By simply reading this atomic virial tensor in the molecular dynamics code and constructing the heat flux, one can perform a heat conductivity calculation based on the Green-Kubo formula.
+
 <!--
 When you use Allegro-Legato in your paper, please use the following BibTeX to cite.
 
