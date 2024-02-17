@@ -1,6 +1,4 @@
-# NequIP
-
-This repository implements an extension to Allegro that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula.
+#### This repository implements an extension to Allegro that outputs the atomic virial tensor required for thermal conductivity calculations based on the Green-Kubo formula.
 
 <!--
 When you use Allegro-Legato in your paper, please use the following BibTeX to cite.
@@ -14,7 +12,7 @@ NequIP is an open-source code for building E(3)-equivariant interatomic potentia
 **PLEASE NOTE:** the NequIP code is under active development and is still in beta versions 0.x.x. In general changes to the patch version (the third number) indicate backward compatible beta releases, but please be aware that file formats and APIs may change. Bug reports are also welcomed in the GitHub issues!
 -->
 
-## Installation
+## Installation of NequIP
 
 NequIP requires:
 
@@ -25,7 +23,7 @@ NequIP requires:
 
 To install:
 
-* We use [Weights&Biases](https://wandb.ai) (or TensorBoard) to keep track of experiments. This is not a strict requirement — you can use our package without it — but it may make your life easier. If you want to use it, create an account [here](https://wandb.ai) and install the Python package:
+* [Weights&Biases](https://wandb.ai) (or TensorBoard) is used to keep track of experiments. This is not a strict requirement — you can use our package without it — but it may make your life easier. If you want to use it, create an account [here](https://wandb.ai) and install the Python package:
 
   ```
   pip install wandb # tensorboard
@@ -48,7 +46,7 @@ To install:
   cd nequip
   pip install . 
   ```
-
+<!--
 ### Installation Issues
 
 The easiest way to check if your installation is working is to train a **toy** model:
@@ -69,6 +67,7 @@ pytest tests/
 ```
 
 If a GPU is present, the unit tests will use it.
+-->
 
 ## Tutorial 
 
