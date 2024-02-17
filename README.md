@@ -14,7 +14,7 @@ NequIP is an open-source code for building E(3)-equivariant interatomic potentia
 
 ## Installation
 
-NequIP and Allegro requires:
+NequIP and Allegro require:
 
 * Python >= 3.7
 * PyTorch == 1.10.* or 1.13.*. PyTorch can be installed following the [instructions from their documentation](https://pytorch.org/get-started/locally/). Note that neither `torchvision` nor `torchaudio`, included in the default install command, are needed for NequIP.
